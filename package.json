@@ -1,0 +1,21 @@
+{
+  "name": "playwrightautomationpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test UsingApi.spec.js --headed",
+    "APITests":"npx playwright --grep @API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "allure-playwright": "^3.4.5"
+  },
+  "dependencies": {
+    "exceljs": "^4.1.1"
+  }
+}
